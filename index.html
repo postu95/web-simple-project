@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Simple Project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/assets/icon/partner.png" alt="Logo" class="logo-img"/>
+            <h1 class="logo-title">POSTU</h1>
+        </div>
+        
+        <nav>
+             <ul>
+                 <li><a href="#jasa">Service</a></li>
+                 <li><a href="mailto:thonbhue@gmail.com">Contact</a></li>
+             </ul>
+        </nav>
+        <button class="btn-cta" onclick="riderLinkedin()">Follow Me</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hi, Anton Ramadan is Here!</p>
+            <p class="description">Software Engineer</p>
+            <img src="/assets/foto/killua_1.jpg" alt="anton_ramadan" class="img-foto">
+        </div>
+        <div class="parallax">
+            <div class="tentang"  id="jasa">
+                <p class="title">I'm Software Engineer and keep Learning</p>
+                <p class="description">Keep Moving Forward!</p>
+                <div class="mt-xx">
+                    <button class="btn-cta" onclick="riderWhatsapp()">More</button>
+                </div>
+            </div>
+            <div class="container">
+                 <div class="card">
+                        <div class="card-item">
+                            <img src="/assets/icon/24-hours.png" alt="icon-1" class="icon">
+                            <p class="card-title">Fully Services 7 days in a Week</p>
+                            <p class="card-description">I can support fully maintenance and upgradding system</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="/assets/icon/hot-deal.png" alt="icon-2" class="icon">
+                            <p class="card-title">Best Deal Choice</p>
+                            <p class="card-description">Fully services with best price and high performance</p>
+                        </div>
+                        <div class="card-item">
+                            <img src="/assets/icon/rating.png" alt="icon-3" class="icon">
+                            <p class="card-title">666 reviews</p>
+                            <p class="card-description">My client very happy with service and performance/p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Anton Ramadan 2022</p>
+    </footer>
+
+    <script>
+        function riderLinkedin() {
+            window.location.href ='https://www.linkedin.com/in/antonramadhan95/'
+        }
+
+        function riderWhatsapp() {
+            window.location.href ='https://wa.me/6285812345678'
+        }
+    </script>
+</body>
+</html>
