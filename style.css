@@ -7,8 +7,6 @@
 }
 
 header {
-    position: fixed;
-    width: 100%;
     background: #1A2238;
     color: #eaeaea;
     display: flex;
@@ -220,7 +218,6 @@ footer {
         width: 100%;
         background: #1A2238;
         z-index: 9;
-
     }
 
     footer {
